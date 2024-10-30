@@ -1,0 +1,245 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MEO Wallet Payment Gateway\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Tue Mar 01 2016 11:39:51 GMT+0000 (WET)\n"
+"POT-Revision-Date: Wed Mar 02 2016 14:57:51 GMT+0000 (WET)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Name of the plugin
+msgid "MEO Wallet Payment Gateway"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://www.webds.pt"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"MEO Wallet Payment Gateway is the best away to accept payments via MEO "
+"Wallet, Multibanco and Credit/Debit Card."
+msgstr ""
+
+#. Author of the plugin
+msgid "WebDS"
+msgstr ""
+
+#: ../class/meowallet.class.php:41
+msgid "Meo Wallet"
+msgstr ""
+
+#: ../class/meowallet.class.php:42
+msgid "Accepts payments via Meo Wallet, MB & Credit Cards"
+msgstr ""
+
+#: ../class/meowallet.class.php:114 ../includes/settings-meowallet.php:22
+msgid "MEO Wallet"
+msgstr ""
+
+#: ../class/meowallet.class.php:126 ../class/meowallet.class.php:130
+msgid "Activate MB return data"
+msgstr ""
+
+#: ../class/meowallet.class.php:131
+msgid ""
+"In order to recieve MB generated data to show on your site you will have to "
+"send Meo Wallet a ticekt requesting activation."
+msgstr ""
+
+#: ../class/meowallet.class.php:132
+msgid "Login on <strong>Meo Wallet</strong> and click"
+msgstr ""
+
+#: ../class/meowallet.class.php:133
+msgid "Message example"
+msgstr ""
+
+#: ../class/meowallet.class.php:135
+msgid ""
+"After activation confirmation, generate a new API KEY and change it here. Go "
+"to"
+msgstr ""
+
+#: ../class/meowallet.class.php:141 ../class/meowallet.class.php:145
+msgid "Callback url"
+msgstr ""
+
+#: ../class/meowallet.class.php:148
+msgid ""
+"MEO Wallet notifies you of changes in the status of a transaction via "
+"callbacks to your site. The callback endpoint for your site is configured on "
+"the merchant backoffice in the Edit Wallet section."
+msgstr ""
+
+#: ../class/meowallet.class.php:149
+msgid "Login on <strong>Meo Wallet</strong>"
+msgstr ""
+
+#: ../class/meowallet.class.php:156
+msgid "A company"
+msgstr ""
+
+#: ../class/meowallet.class.php:158
+msgid "Web hosting solutions, domain register and SSL certificates"
+msgstr ""
+
+#: ../class/meowallet.class.php:333 ../class/meowallet.class.php:380 ..
+#: /class/meowallet.class.php:474
+msgid "Entity"
+msgstr ""
+
+#: ../class/meowallet.class.php:337 ../class/meowallet.class.php:382 ..
+#: /class/meowallet.class.php:475
+msgid "Reference"
+msgstr ""
+
+#: ../class/meowallet.class.php:342 ../class/meowallet.class.php:385 ..
+#: /class/meowallet.class.php:477
+msgid "Amount"
+msgstr ""
+
+#: ../class/meowallet.class.php:367 ../class/meowallet.class.php:397 ..
+#: /class/meowallet.class.php:461 ../class/meowallet.class.php:466
+msgid "MEO Wallet paid using: "
+msgstr ""
+
+#: ../class/meowallet.class.php:368 ../class/meowallet.class.php:397
+msgid "Credit card"
+msgstr ""
+
+#: ../class/meowallet.class.php:406 ../class/meowallet.class.php:419
+msgid "Payment received."
+msgstr ""
+
+#: ../class/meowallet.class.php:408
+msgid "We will now process your order."
+msgstr ""
+
+#: ../class/meowallet.class.php:466
+msgid "Encomenda"
+msgstr ""
+
+#: ../class/meowallet.class.php:471
+msgid "Wallet ID"
+msgstr ""
+
+#: ../class/meowallet.class.php:472
+msgid "Method"
+msgstr ""
+
+#: ../class/meowallet.class.php:478
+msgid "Wallet Comission"
+msgstr ""
+
+#: ../class/meowallet.class.php:491
+#, php-format
+msgid "Entity: %s<br>Reference: %s<br>Amount: %s &euro;"
+msgstr ""
+
+#: ../class/meowallet.class.php:497
+msgid "Waiting Meo Wallet payment:"
+msgstr ""
+
+#: ../includes/settings-meowallet.php:12
+msgid "Activate/Deativate"
+msgstr ""
+
+#: ../includes/settings-meowallet.php:13 ../includes/settings-meowallet.php:15
+msgid "Activate MEO Wallet"
+msgstr ""
+
+#: ../includes/settings-meowallet.php:19
+msgid "Title"
+msgstr ""
+
+#: ../includes/settings-meowallet.php:21
+msgid "Give a title to be shown during the payment process"
+msgstr ""
+
+#: ../includes/settings-meowallet.php:25
+msgid "Description"
+msgstr ""
+
+#: ../includes/settings-meowallet.php:27
+msgid "A description of the Meo Wallet service to be read by your clients"
+msgstr ""
+
+#: ../includes/settings-meowallet.php:28
+msgid "Pay with MEO Wallet - MEO Wallet, Multibanco, Credit Card"
+msgstr ""
+
+#: ../includes/settings-meowallet.php:31
+msgid "API Key"
+msgstr ""
+
+#: ../includes/settings-meowallet.php:33
+msgid ""
+"Insert your Meo Wallet API key. Not the same as Meo Wallet Sandbox API Key. "
+"<br />To get your API key, click <a target=\"_blank\" href=\"https://www.wallet."
+"pt/login/\">here</a>"
+msgstr ""
+
+#: ../includes/settings-meowallet.php:38
+msgid "Sandbox API Key"
+msgstr ""
+
+#: ../includes/settings-meowallet.php:40
+msgid ""
+"Insert your Meo Wallet Sandbox API key. <br />To get your API key, click <a "
+"target=\"_blank\" href=\"https://www.sandbox.meowallet.pt/login/\">here</a>"
+msgstr ""
+
+#: ../includes/settings-meowallet.php:45
+msgid "Choose your enviorment"
+msgstr ""
+
+#: ../includes/settings-meowallet.php:47
+msgid "Actiavte Meo Wallet in test mode!"
+msgstr ""
+
+#: ../includes/settings-meowallet.php:48
+msgid "Choose your Enviorment between Test and Production"
+msgstr ""
+
+#: ../includes/settings-meowallet.php:51
+msgid "Test"
+msgstr ""
+
+#: ../includes/settings-meowallet.php:52
+msgid "Production"
+msgstr ""
+
+#: ../includes/settings-meowallet.php:56
+msgid "Debug Log"
+msgstr ""
+
+#: ../includes/settings-meowallet.php:58
+msgid "Enable logging"
+msgstr ""
+
+#: ../includes/settings-meowallet.php:60
+#, php-format
+msgid "Log Meo Wallet events, inside <code>%s</code>"
+msgstr ""
+
+#: ../includes/settings-meowallet.php:66
+msgid "Exchange rate"
+msgstr ""
